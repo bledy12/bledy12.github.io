@@ -63,14 +63,14 @@ blockquote {
 }
 
 nav {
-      float:none;
+      float:left;
       display: flex;
       flex-wrap:wrap;
       flex-direction: column;
       width:14rem;
       border:.0625rem solid #333;
       background-color:#8FB0D0;
-      position:absolute;
+      position:fixed;
 }
 
 nav img {
