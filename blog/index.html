@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Use a meta tag to designate yourself as the author of the page -->
+    <meta name="author" content="Your Name">
+    
+    <!-- Give your page a title -->
+    <title>My Blog</title>
+    
+    <!-- Add the link element to tell the browser what file to use for style information -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Add a level 1 heading to display three words. Use a span element to highlight the second word. Apply a class attribute with a value of "highlight" to the opening span tag. -->
+        <h1>My <span class="highlight">Awesome</span> Blog</h1>
+    </header>
+    
+    <!-- Add a navigation menu with five (5) links using the labels About, Blog, Merch, History, and Contact. Use the "#" symbol for your href values -->
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Merch</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Add a level 2 heading -->
+        <h2>Welcome to My Blog</h2>
+        
+        <!-- Add a class attribute with a value of "main-section" to the opening section tag below -->
+        <section class="main-section">
+            <article>
+                <!-- Create a figure that contains one (1) image; then, add a class attribute with a value of "article-image" to the opening figure tag -->
+                <figure class="article-image">
+                    <img src="images/sample1.jpg" alt="Sample image 1">
+                </figure>
+                
+                <!-- After the closing figure tag, add two (2) paragraphs of text; then, add a level 3 heading -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+                <h3>Subheading 1</h3>
+                
+                <!-- After the closing heading tag, add two (2) additional paragraphs of text and another level 3 heading -->
+                <p>Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit.</p>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci.</p>
+                <h3>Subheading 2</h3>
+                
+                <!-- After the closing heading tag, add three (3) paragraphs of text -->
+                <p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+                <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                
+                <!-- Use the time element with a datetime attribute to display a date after the last paragraph is closed -->
+                <p><time datetime="2023-05-30">May 30, 2023</time></p>
+                
+                <!-- Add a class attribute with a value of "subsection" to the opening section tag below -->
+                <section class="subsection">
+                    <!-- Between the two section tags, create three (3) figures, each with one (1) image and one (1) figcaption -->
+                    <figure>
+                        <img src="images/sample2.jpg" alt="Sample image 2">
+                        <figcaption>Image by <a href="https://example.com">Author Name</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/sample3.jpg" alt="Sample image 3">
+                        <figcaption>Image by <a href="https://example.com">Author Name</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/sample4.jpg" alt="Sample image 4">
+                        <figcaption>Image by <a href="https://example.com">Author Name</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a></figcaption>
+                    </figure>
+                </section>
+                
+                <!-- Create a Subscribe button between the closing section and closing article tags -->
+                <button>Subscribe</button>
+            </article>
+            
+            <aside>
+                <!-- Add a level 3 heading, followed by an image and a paragraph -->
+                <h3>Featured Post</h3>
+                <img src="images/feature1.jpg" alt="Featured post image">
+                <p>This is a brief description of the featured post. Check it out!</p>
+                
+                <!-- Add another level 3 heading, followed by an image and a paragraph -->
+                <h3>Recent News</h3>
+                <img src="images/news1.jpg" alt="Recent news image">
+                <p>Here is some recent news related to the blog. Stay updated!</p>
+                
+                <!-- Add an additional level three heading, followed by an image and a paragraph -->
+                <h3>Upcoming Events</h3>
+                <img src="images/event1.jpg" alt="Upcoming event image">
+                <p>Don't miss out on our upcoming events. Join us!</p>
+                
+                <!-- Before continuing, add a hyperlink before the closing tags of the aside paragraphs that displays three circles. Use the "#" symbol as the href value, and include a class attribute with the value of "expand" -->
+                <a href="#" class="expand">&#x26AB; &#x26AB; &#x26AB;</a>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <!-- Add a paragraph with the copyright and a link to an email address -->
+        <p>&copy; 2024 My Blog. Contact us at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+        
+        <!-- Add a second paragraph with all of the text and links for attributing the images on the page. Make sure to use the "ideal" attribution from Creative Commons -->
+        <p>Images by <a href="https://example.com">Author Name</a> licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a>.</p>
+    </footer>
+</body>
+</html>
